@@ -1,0 +1,88 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James' Coffee Shop</title>
+    <link rel="stylesheet" href="/assets/css/coffeestyle.css">
+</head>
+
+<body>
+    <!-- Body section -->
+    <div class="coffee-shop-container">
+        <!-- Left navigation column -->
+        <div class="left-nav-column">
+            <a href="index.html"><img class="logo" src="/assets/img/james_coffee_logo.png" alt="Logo"></a>
+            <nav>
+                <ul class="left-navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="process.html">Process</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Header section -->
+        <div class="header">
+            <h1>James' Coffee Shop</h1>
+            <h3 class="header-h3">Where you have YOUR cup of coffee.</h3>
+        </div>
+
+        <!-- Body section -->
+        <div class="body">
+            <div class="body-container">
+                <img class="body-main-img" src="/assets/img/cafe-seat-map.jpg" alt="seat-map">
+            </div>
+
+            <div class="form-container">
+                <form id="booking-form">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" name="fullname" id="fullname" form="booking-form" required="">
+                    <label for="phone">Phone</label>
+                    <input type="tel" name="phone" id="phone" form="booking-form" required="">
+                    <label for="table">Table</label>
+                    <select name="table" id="table" form="booking-form" size="1" required="">
+                        <option value="0" selected> -- select a table -- </option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                </form>
+            </div>
+
+            <div class="seat-table">
+                <a href="prototype.html" class="seat-button">Book your table!</a>
+            </div>
+
+            <div class="img-row">
+                <div class="left">
+                    <img class="image-1" src="/assets/img/coffee-intro1.jpg" alt="cup of coffee">
+                </div>
+                <!--https://pixabay.com/photos/coffee-shop-business-interior-90604/-->
+                <div class="right">
+                    <img class="image-2" src="/assets/img/coffee-intro2.jpg" alt="cups of coffee on counter">
+                </div>
+                <!--https://pixabay.com/photos/coffee-shop-tables-chairs-business-5610182/-->
+            </div>
+
+            <!-- Footer -->
+            <footer>
+                <div class="logo-container">
+                    <img class="footer-logo" src="/assets/img/james_coffee_logo.png" alt="logo">
+                    <h2 class="footer-h2">James' Coffee Shop</h2>
+                </div>
+                <hr class="footer-hr">
+            </footer>
+        </div>
+    </div>
+</body>
